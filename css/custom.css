@@ -1,0 +1,23 @@
+/* custom styles */
+a:link, a:visited { color:#FF1385; }
+a:hover { color:#12A0FF; }
+#photos { list-style:none; }
+#photos li {
+    float:left;
+    max-width: 200px; max-height:200px;
+    width:200px;
+    overflow:hidden;
+    overflow:hidden; display:none;
+    margin:.5em;
+    background:#eee;
+    display:block;
+    text-align:center;
+}
+#photos li img {
+  max-height:200px;
+  margin:0 auto;
+}
+#lomo { float:right;}
+#takeaway {float:left; text-align:right; }
+img { max-height:500px;}
+.subtle { color: #ccc; font-size:smaller; margin-bottom:5em;}
